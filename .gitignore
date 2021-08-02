@@ -1,0 +1,29 @@
+# Log file
+*.log
+
+# Compiled class file
+*.class
+
+RemoteSystemsTempFiles
+*RemoteSystemsTempFiles
+*.metadata
+*.recommenders
+
+*.idea
+*.idea
+# Package Files #
+*.jar
+*.war
+*.zip
+*.cmd
+*.classpath
+*.settings
+*.project
+*.mvn
+mvnw
+target
+*.DS_Store
+bin
+.recommenders
+.metadata
+RemoteSystemsTempFiles
