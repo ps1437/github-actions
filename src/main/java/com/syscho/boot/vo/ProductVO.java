@@ -1,7 +1,6 @@
 package com.syscho.boot.vo;
 
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.validation.constraints.Min;
 
@@ -9,7 +8,9 @@ import javax.validation.constraints.Min;
  * @author Soni
  */
 @Data
-@NoArgsConstructor
+@Builder
+@AllArgsConstructor
+@RequiredArgsConstructor
 public class ProductVO {
 
 
